@@ -1,0 +1,30 @@
+PATA & CIA — PROJETO PETSHOP
+
+ESTRUTURA
+- App.js: navegação entre login, cadastro e tela principal.
+- telas/: telas de login, cadastro e funcionalidades do aplicativo.
+- firebase/firebase.js: conexão com Firebase Authentication.
+- services/auth.js: funções de autenticação e saída da conta.
+- components/: componentes reutilizáveis da interface.
+- Fotinhas/: logotipo e imagens do aplicativo.
+
+COMO EXECUTAR
+1. Extraia o ZIP.
+2. Abra a pasta petshopp no VS Code.
+3. Abra o terminal dentro da pasta que contém package.json.
+4. Execute: npm install
+5. Execute: npx expo start --lan
+6. Leia o QR Code com o Expo Go, mantendo computador e celular na mesma rede Wi-Fi.
+
+IMPORTANTE SOBRE NOTIFICAÇÕES
+O aplicativo usa notificações locais para confirmar agendamentos e seleções de produtos. O Expo Go para Android pode bloquear a inicialização do módulo de notificações dependendo da versão do SDK; o código trata essa situação para que o aplicativo não feche e mantém os avisos na aba Notificações dentro do app. Para testar também a notificação na barra do Android de forma confiável, é necessário executar uma development build do Expo (não apenas o Expo Go).
+
+FIREBASE
+O login, cadastro e logout utilizam Firebase Authentication. O arquivo firebase/firebase.js contém a configuração do projeto Firebase existente. Para a autenticação funcionar, o projeto deve continuar ativo e o método E-mail/Senha deve estar habilitado em Authentication no console do Firebase.
+
+TESTES RECOMENDADOS ANTES DA ENTREGA
+- Criar uma conta com e-mail e senha válidos.
+- Sair e entrar novamente.
+- Abrir Banho, Tosa e Consulta e testar o formulário de agendamento.
+- Selecionar produtos e conferir os avisos na aba Notificações.
+- Abrir Perfil e testar sair da conta.

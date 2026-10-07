@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Pata & Cia",
+    "slug": "petamigo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Fotinhas/logo.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F3EC",
+        "foregroundImage": "./Fotinhas/logo.png",
+        "monochromeImage": "./Fotinhas/logo.png"
+      }
+    },
+    "web": {
+      "favicon": "./Fotinhas/logo.png"
+    }
+  }
+}
